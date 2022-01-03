@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about {
+    width: 100%;
+    /* margin: 50px; */
+    text-align: center;
+    padding-top: 50px;
+    background-color:rgba(45, 46, 45, 0.938);
+    padding-bottom: 100px;
+
+}
+.about h1 {
+    background-color: #e74c3c;
+    width: fit-content;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 40px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+}
+.aboutMe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.aboutMe img {
+    width: 22em;
+    height: 27em;
+    border-radius: 15px;
+    object-fit: cover;
+} 
+.aboutMe .right h2 {
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.aboutMe .right h4 {
+    font-size:30px;
+    letter-spacing: 3px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footero {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 40px;
+    height: 250px;
+  }
+  
+.footero {
+    font-family: "Work Sans", sans-serif;
+    background-color: #19b95c;
+  }
+  
+  .footero a {
+    text-decoration: underline;
+    font-family: sans-serif;
+  }
+  .footero h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  .footero .reference a {
+    color: white;
+    font-size: 1.3em;
+  }
+
+  /* ----------FOR MOBILE---------- */
+
+  @media screen and (max-width:900px) {
+    .about {
+        width: 100%;
+        /* margin: 50px; */
+        text-align: center;
+        padding-top: 30px;
+        background-color:rgba(45, 46, 45, 0.938);
+        padding-bottom: 50px;
+    
+    }
+    .about h1 {
+        background-color: #e74c3c;
+        width: fit-content;
+        color: #fff;
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        letter-spacing: 3px;
+    }
+    .aboutMe {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .aboutMe img {
+        width: 10em;
+        height: 14em;
+        border-radius: 10px;
+        object-fit: cover;
+    } 
+    .aboutMe .right h2 {
+        font-size: 32px;
+        letter-spacing: 4px;
+        color: #fff;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .aboutMe .right h4 {
+        font-size:17px;
+        letter-spacing: 3px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    .footero {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 30px;
+        height: 250px;
+      }
+      
+    .footero {
+        font-family: "Work Sans", sans-serif;
+        background-color: #19b95c;
+      }
+      
+      .footero a {
+        text-decoration: underline;
+        font-family: sans-serif;
+      }
+      .footero h3 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+      }
+      .footero .reference a {
+        color: white;
+        font-size: .8em;
+      }
+  }
+
+  @media screen and (max-width: 900px) and (orientation: landscape) {
+   
+    .aboutMe {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .aboutMe img {
+        width: 11em;
+        height: 15em;
+        border-radius: 10px;
+        object-fit: cover;
+    } 
+    .aboutMe .right h2 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .aboutMe .right h4 {
+        font-size:13px;
+        margin-bottom: 15px;
+    }
+  
+      .footero h3 {
+        font-size: 2em;
+      }
+      .footero .reference a {
+        font-size: 1em;
+      }
+  
+  }

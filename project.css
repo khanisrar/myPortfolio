@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.project {
+    width: 100%;
+    /* margin: 50px; */
+    text-align: center;
+    padding-top: 50px;
+    background-color:rgb(75 150 122);
+    padding-bottom: 50px;
+
+}
+.project h1 {
+    background-color: #e74c3c;
+    width: fit-content;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 40px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+}
+ .project-col {
+     /* flex-basis: 32%; */
+     border-radius: 10px;
+     margin-bottom: 30px;
+     position: relative;
+     overflow: hidden;
+ }
+ .project-col img {
+     width: 600px;
+     /* width: fit-content; */
+     height: 300px;
+     border-radius: 10px;
+     display: block;
+
+ }
+ .pRow {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     /* display:grid;   
+     grid-template-columns:  repeat(2,1fr); */
+     margin-top: 50px;
+ }
+ 
+ .layer {
+     background: transparent;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: 0.5s;
+ }
+ .layer a {
+     width: 100%;
+     font-weight: 500;
+     color: white;
+     font-size: 26px;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     position: absolute;
+     opacity: 0;
+     transition: 0.5s;
+     text-decoration: none;
+ }
+ .layer:hover a {
+     bottom: 49%;
+     opacity: 1;
+
+ }
+ .layer a h2 {
+     background-color: #fff;
+     color: #e74c3c;
+     width: fit-content;
+    padding: 8px 18px;
+    font-size: 25px;
+    border-radius: 8px;
+     margin: 0 auto;
+     letter-spacing: 2px;
+ }
+ .pRow h3 {
+     font-size: 25px;
+     width: fit-content;
+     margin: 0 auto;
+     padding: 10px 20px;
+     background-color: #e74c3c;
+     color: #fff;
+     border-radius: 8px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     letter-spacing: 3px;
+
+ }
+
+ /* ----------FOR MOBILE---------- */
+
+ @media screen and (max-width:900px) {
+    .project {
+        width: 100%;
+        /* margin: 50px; */
+        text-align: center;
+        padding-top: 30px;
+        background-color:rgb(75 150 122);
+        padding-bottom: 30px;
+    
+    }
+    .project h1 {
+        color: #fff;
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 30px;
+        margin-bottom: 30px;
+        letter-spacing: 3px;
+    }
+     .project-col {
+         /* flex-basis: 32%; */
+         margin: 0 auto ;
+         width: 85%;
+         border-radius: 10px;
+         margin-bottom: 30px;
+         position: relative;
+         overflow: hidden;
+     }
+     .project-col img {
+         width: 100%;
+         /* width: fit-content; */
+         height: 180px;
+         border-radius: 10px;
+         display: block;
+         padding: 0;
+         margin: 0 auto;
+    
+     }
+     .pRow {
+         display: block;
+         justify-content: space-around;
+         align-items: center;
+         /* display:grid;   
+         grid-template-columns:  repeat(2,1fr); */
+         margin-top: 10px;
+     }
+     
+     .layer {
+         background: transparent;
+         height: 100%;
+         width: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+         transition: 0.5s;
+     }
+     .layer a {
+         width: 100%;
+         font-weight: 500;
+         color: white;
+         font-size: 26px;
+         bottom: 0;
+         left: 50%;
+         transform: translateX(-50%);
+         position: absolute;
+         opacity: 0;
+         transition: 0.5s;
+         text-decoration: none;
+     }
+     .layer:hover a {
+         bottom: 49%;
+         opacity: 1;
+    
+     }
+     .layer a h2 {
+         background-color: #fff;
+         color: #e74c3c;
+         width: fit-content;
+        padding: 8px 18px;
+        font-size: 15px;
+        border-radius: 8px;
+         margin: 0 auto;
+         letter-spacing: 2px;
+     }
+     .pRow h3 {
+         font-size: 15px;
+         width: fit-content;
+         margin: 0 auto;
+         padding: 10px 20px;
+         background-color: #e74c3c;
+         color: #fff;
+         border-radius: 8px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         letter-spacing: 3px;
+    
+     }
+ }
+ @media screen and (max-width: 900px) and (orientation: landscape) {
+   
+     .project-col {
+         width: 75%;
+     
+     }
+     .project-col img {
+         height: 200px;
+     
+    
+     }
+     
+ }

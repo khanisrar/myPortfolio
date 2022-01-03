@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata:wght@300&family=Orbitron:wght@400;500&family=Permanent+Marker&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+    /* font-family: sans-serif; */
+
+}
+/* body {
+    margin-bottom: 500px;
+} */
+header {
+    width: 100%;
+    height: 780px;
+    background:linear-gradient(rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),
+                 url('./images/n7.jpg');
+    background-size: cover;
+    background-attachment: fixed;    
+    /* margin-bottom: 50px; */
+
+}
+header nav h1 {
+    color: #000;
+    font-size: 50px;
+    margin-left: 30px;
+    letter-spacing: 4px;
+}
+header nav h1 span {
+    color: #e74c3c;
+}
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    
+}
+
+.nav-link {
+    margin-right: 40px;
+}
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 32px;
+    position: relative;
+    
+}
+.nav-link ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 23px;
+    /* font-family: sans-serif; */
+
+}
+
+.nav-link ul li::after {
+    content: '';
+    width: 0%;
+    height: 2.3px;
+    background: #e74c3c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-link ul li:hover::after {
+    width: 100%;
+    cursor: pointer;
+}
+.h-text {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top:160px;
+    text-align: center;
+}
+
+#hand {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.h-text h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+    /* font-family: Orbitron; */
+}
+.h-text p {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 500;
+}.btn a button{
+    padding: 15px 30px;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #e74c3c;
+    transition: 0.4s;
+    margin-top: 20px;
+    margin-bottom: 130px;
+    border-radius: 8px;
+    border: none;
+}
+.btn a button:hover {
+    background-color: #e74d3cbe;
+    cursor: pointer;
+}
+.link a {
+    background-color: rgba(255, 255, 255, 0.555);
+    padding: 10px 20px;
+    margin: 5px 80px;
+    text-decoration: none;
+    font-family: arial;
+    border-radius: 30px;
+    font-size: 1.2em;
+    transition: .5s;
+    
+}
+.link a:hover {
+    /* background-color: rgba(255, 255, 255, 0.329); */
+    font-family: orbitron;
+
+}
+.link a i {
+    margin: 5px;
+}
+.yt {
+    color: #c9510c;
+}
+
+.face {
+    color: #4267B2;
+}
+
+.insta {
+    color: #E1306C;
+}
+.email {
+    color: 	#3357C0;
+} 
+.ws {
+    color:#075E54;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    
+    
+    header {
+        width: 100vw;
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),
+                     url('./images/hack6.jpg');
+        margin-bottom: 0;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    }
+    header nav {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        /* position: fixed;
+        z-index: 1000; */
+    }
+    nav {
+        height: 70px;
+    }
+
+    header nav h1 {
+        /* background-color: green; */
+        font-size: 30px;
+        margin-left: 0;
+
+    }
+
+    .h-text {
+        padding-top: 170px;
+    }
+    .icon a {
+       display: none;
+    }
+    .nav-link  {
+        display: none;
+    }
+    #hand {
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+    .h-text h1 {
+        font-size: 1.5em;
+        line-height: 1.2em;
+        /* font-family: Orbitron; */
+    }
+    .h-text p {
+        font-size: 15px;
+        margin: 10px;
+        font-weight: 300;
+    }.btn a button{
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .link a {
+        padding: 8px 13px;
+        margin: 20px 35px;
+        border-radius: 20px;
+        font-size: .9em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        outline: none;
+    }
+    .left {
+        display: block;
+    }
+    .right {
+        display: block;
+    }
+    
+    .link a i {
+        margin: 0 5px 0 0;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    header {
+        width: 100vw;
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),
+                     url('./images/n7.jpg');
+        margin-bottom: 50px;
+        background-size: cover;
+        /* background-attachment: fixed; */
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        margin: none;
+    }
+    nav {
+        height: 60px;
+       
+    }
+
+    header nav h1 {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .nav-link {
+        display: block;
+        margin-right: 15px;
+    }
+    .nav-link ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 20px;
+        position: relative;
+
+        
+    }
+    .nav-link ul li a{
+        color: #000;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .h-text {
+        padding-top: 90px;
+    }
+    
+    #hand {
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+    .h-text h1 {
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    .h-text p {
+        font-size: 15px;
+        margin: 10px;
+        font-weight: 300;
+    }.btn a button{
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
+    
+    .link a {
+        padding: 6px 13px 8px 13px;
+        margin: 20px 30px;
+        border-radius: 20px;
+        font-size: .75em;
+        flex-direction: row;
+        position: relative;
+        top: -320px;
+    }
+    
+    .link a i {
+        margin: 5px;
+    }
+}
