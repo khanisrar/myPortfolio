@@ -247,7 +247,7 @@ nav {
         height: 100vh;
         background:linear-gradient(rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),
                      url('./images/n7.jpg');
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
         background-size: cover;
         /* background-attachment: fixed; */
     }

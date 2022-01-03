@@ -19,7 +19,7 @@
     margin: 0 auto;
     font-size: 40px;
     padding: 10px 50px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 70px;
     letter-spacing: 3px;
 }
@@ -91,7 +91,7 @@
      padding: 10px 20px;
      background-color: #e74c3c;
      color: #fff;
-     border-radius: 8px;
+     border-radius: 5px;
      margin-top: 10px;
      margin-bottom: 10px;
      letter-spacing: 3px;
@@ -115,7 +115,7 @@
         margin: 0 auto;
         font-size: 20px;
         padding: 10px 30px;
-        margin-bottom: 30px;
+        margin-bottom: 45px;
         letter-spacing: 3px;
     }
      .project-col {
@@ -123,7 +123,7 @@
          margin: 0 auto ;
          width: 85%;
          border-radius: 10px;
-         margin-bottom: 30px;
+         margin-bottom: 50px;
          position: relative;
          overflow: hidden;
      }
@@ -187,13 +187,14 @@
          font-size: 15px;
          width: fit-content;
          margin: 0 auto;
-         padding: 10px 20px;
-         background-color: #e74c3c;
-         color: #fff;
-         border-radius: 8px;
+         padding: 8px 17px;
+         background-color: rgb(230, 231, 125);
+         font-family: sans-serif;
+         color: #000;
+         border-radius: 5px;
          margin-top: 10px;
          margin-bottom: 10px;
-         letter-spacing: 3px;
+         letter-spacing: 1px;
     
      }
  }
