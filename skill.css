@@ -22,6 +22,8 @@
     border-radius: 5px;
     margin-bottom: 70px;
     letter-spacing: 3px;
+    box-shadow: 4px 4px rgb(170, 66, 66);
+
 }
  .skill-col {
      /* flex-basis: 32%; */
@@ -91,6 +93,8 @@
         padding: 10px 30px;
         margin-bottom: 45px;
         letter-spacing: 3px;
+    box-shadow: 3px 3px rgb(170, 66, 66);
+
     }
      .skill-col {
          border-radius: 10px;

@@ -22,6 +22,8 @@
     border-radius: 5px;
     margin-bottom: 70px;
     letter-spacing: 3px;
+    box-shadow: 4px 4px rgb(170, 66, 66);
+
 }
  .project-col {
      /* flex-basis: 32%; */
@@ -66,6 +68,7 @@
      transform: translateX(-50%);
      position: absolute;
      opacity: 0;
+     outline: none;
      transition: 0.5s;
      text-decoration: none;
  }
@@ -89,8 +92,9 @@
      width: fit-content;
      margin: 0 auto;
      padding: 10px 20px;
-     background-color: #e74c3c;
-     color: #fff;
+     background-color: rgb(230, 231, 125);
+     font-family: sans-serif;
+     color: #000;
      border-radius: 5px;
      margin-top: 10px;
      margin-bottom: 10px;
@@ -117,6 +121,8 @@
         padding: 10px 30px;
         margin-bottom: 45px;
         letter-spacing: 3px;
+    box-shadow: 3px 3px rgb(170, 66, 66);
+
     }
      .project-col {
          /* flex-basis: 32%; */
@@ -135,6 +141,7 @@
          display: block;
          padding: 0;
          margin: 0 auto;
+
     
      }
      .pRow {
@@ -167,6 +174,8 @@
          opacity: 0;
          transition: 0.5s;
          text-decoration: none;
+         outline: none;
+         user-select: none;
      }
      .layer:hover a {
          bottom: 49%;
