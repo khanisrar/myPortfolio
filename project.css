@@ -191,6 +191,7 @@
         border-radius: 8px;
          margin: 0 auto;
          letter-spacing: 2px;
+         user-select: none;
      }
      .pRow h3 {
          font-size: 15px;
@@ -207,7 +208,7 @@
     
      }
  }
- @media screen and (max-width: 900px) and (orientation: landscape) {
+ @media screen and (max-width: 1200px) and (orientation: landscape) {
    
      .project-col {
          width: 75%;
