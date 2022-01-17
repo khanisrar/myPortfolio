@@ -10,15 +10,27 @@
 /* body {
     margin-bottom: 500px;
 } */
-header {
+/* header {
     width: 100%;
     height: 780px;
     background:linear-gradient(rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),
                  url('./images/n7.jpg');
     background-size: cover;
     background-attachment: fixed;    
-    /* margin-bottom: 50px; */
+} */
 
+header {
+    width: 100vw;
+    height: 100vh;
+}
+header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 header nav h1 {
     color: #000;
@@ -154,9 +166,6 @@ nav {
 
 
 
-
-
-
 @media screen and (max-width:900px) {
     
     
@@ -242,7 +251,7 @@ nav {
     
     
 }
-@media screen and (max-width: 900px) and (orientation: landscape) {
+@media screen and (max-width: 1000px) and (orientation: landscape) {
     header {
         width: 100vw;
         height: 100vh;
